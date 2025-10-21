@@ -1,0 +1,29 @@
+# Dotter global configuration file
+# This file defines packages and their file deployment rules
+
+[helpers]
+
+# Default package for all systems
+[default]
+depends = ["ssh"]
+
+[default.files]
+
+# Windows-specific package
+[windows]
+depends = []
+
+[windows.files]
+
+# Linux-specific package
+[linux]
+depends = []
+
+[linux.files]
+
+# SSH configuration package (cross-platform)
+[ssh]
+depends = []
+
+[ssh.files]
+"ssh/config" = "~/.ssh/config"

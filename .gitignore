@@ -1,0 +1,23 @@
+# Local dotter configuration (machine-specific)
+.dotter/local.toml
+
+# SSH hosts directory (managed as submodule)
+# Uncomment the line below if hosts is not yet set up as submodule
+# ssh/conf.d/hosts/*
+# !ssh/conf.d/hosts/.gitkeep
+
+# Backup files
+*.backup
+*.bak
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo

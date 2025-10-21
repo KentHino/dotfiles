@@ -1,0 +1,3 @@
+Host gitlabce.misty.sony.co.jp
+    User git
+    StrictHostKeyChecking no

@@ -1,0 +1,14 @@
+# SSH Configuration File
+# Managed by dotter
+
+Include conf.d/repos
+Include conf.d/hosts/*
+
+# Default settings for all hosts
+Host *
+    ServerAliveInterval 60
+    ServerAliveCountMax 3
+    TCPKeepAlive yes
+    AddKeysToAgent yes
+    IdentityFile ~/.ssh/keys/id_ed25519
+
