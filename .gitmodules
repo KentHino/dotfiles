@@ -1,0 +1,3 @@
+[submodule "ssh/conf.d/hosts"]
+	path = ssh/conf.d/hosts
+	url = git@gitlabce.misty.sony.co.jp:ngs/stork/infrastructure/dotfiles-ssh.git

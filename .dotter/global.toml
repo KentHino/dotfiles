@@ -11,13 +11,13 @@ depends = ["ssh"]
 
 # Windows-specific package
 [windows]
-depends = []
+depends = ["ssh"]
 
 [windows.files]
 
 # Linux-specific package
 [linux]
-depends = []
+depends = ["ssh"]
 
 [linux.files]
 
@@ -27,3 +27,4 @@ depends = []
 
 [ssh.files]
 "ssh/config" = "~/.ssh/config"
+"ssh/conf.d" = "~/.ssh/conf.d"

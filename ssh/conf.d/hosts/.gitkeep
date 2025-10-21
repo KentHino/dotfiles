@@ -1,6 +1,0 @@
-# Placeholder for SSH hosts submodule
-# This directory will be replaced by a Git submodule
-
-# To set up the submodule:
-# 1. Remove this file
-# 2. Run: git submodule add <your-repo-url> ssh/conf.d/hosts
