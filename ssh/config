@@ -2,7 +2,9 @@
 # Managed by dotter
 
 Include conf.d/repos
-Include conf.d/hosts/*
+Include conf.d/hosts/develop/*
+Include conf.d/hosts/production/*
+Include conf.d/hosts/personal/*
 
 # Default settings for all hosts
 Host *
