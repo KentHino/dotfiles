@@ -1,3 +1,6 @@
 [submodule "ssh/conf.d/hosts/lagune"]
 	path = ssh/conf.d/hosts/lagune
 	url = git@gitlabce.misty.sony.co.jp:ngs/stork/infrastructure/dotfiles-ssh.git
+[submodule "ssh/conf.d/hosts/develop"]
+	path = ssh/conf.d/hosts/develop
+	url = git@gitlabce.misty.sony.co.jp:kent.hino/ssh-config.git
