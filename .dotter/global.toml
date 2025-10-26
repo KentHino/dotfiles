@@ -27,7 +27,6 @@ depends = []
 
 [ssh.files]
 "ssh/config" = "~/.ssh/config"
-"ssh/conf.d/README.md" = "~/.ssh/conf.d/README.md"
 "ssh/conf.d/repos" = "~/.ssh/conf.d/repos"
 
 # Deploy submodule contents (all files except .git)
