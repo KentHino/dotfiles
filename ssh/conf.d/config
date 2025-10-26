@@ -1,2 +1,2 @@
-Include develop/config
-Include lagune/config
+Include conf.d/hosts/develop/config
+Include conf.d/hosts/lagune/config

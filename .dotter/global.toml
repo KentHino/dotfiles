@@ -27,7 +27,12 @@ depends = []
 
 [ssh.files]
 "ssh/config" = "~/.ssh/config"
+"ssh/conf.d/config" = "~/.ssh/conf.d/config"
 "ssh/conf.d/repos" = "~/.ssh/conf.d/repos"
 
-# Deploy submodule contents (all files except .git)
-"ssh/conf.d/hosts/develop" = "~/.ssh/conf.d/hosts/develop"
+# Deploy individual SSH config files (excluding .git submodule files)
+"ssh/conf.d/hosts/develop/config" = "~/.ssh/conf.d/hosts/develop/config"
+"ssh/conf.d/hosts/develop/atsugi" = "~/.ssh/conf.d/hosts/develop/atsugi"
+"ssh/conf.d/hosts/develop/sco" = "~/.ssh/conf.d/hosts/develop/sco"
+
+"ssh/conf.d/hosts/lagune/config" = "~/.ssh/conf.d/hosts/lagune/config"

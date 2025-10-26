@@ -2,6 +2,7 @@
 # Managed by dotter
 
 Include conf.d/config
+Include conf.d/repos
 
 
 # Default settings for all hosts
