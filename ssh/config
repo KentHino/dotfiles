@@ -1,10 +1,8 @@
 # SSH Configuration File
 # Managed by dotter
 
-Include conf.d/repos
-Include conf.d/hosts/develop/*
-Include conf.d/hosts/production/*
-Include conf.d/hosts/personal/*
+Include conf.d/config
+
 
 # Default settings for all hosts
 Host *
